@@ -16,16 +16,12 @@
         <h1 class="heading">Random Password Generator</h1>
         <p class="randomPassword" id="randomPassword"></p>
         <div class="w-70 mb-5">
-        <select class="form-control" id="selectlength">
-            <option>Select Length of Password</option>
-            <option value="8">8</option>
-            <option value="8">9</option>
-            <option value="8">10</option>
-            <option value="8">11</option>
-            <option value="8">12</option>
-        </select>
+        <label for="selectlength">Enter required Length (between 0 to 45 only) </label>
+        <input type="number" class="form-control" id="selectlength" placeholder="Enter length of password">
+            
+        
     </div>
-        <button class="btn btn-primary btngp" onclick="generaterandomPass()">Generate Random Password</button>
+        <button class="btn btn-primary btngp" id="generaterandomPass">Generate Random Password</button>
         <p class="note mt-3"><b>How to use:</b> <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click on <b>Generate Random Password button</b> to create Random Password</p>
         <a href="https://github.com/nookeshkarri7" target="_blank">My Other Projects - Check here </a>
     </div>
@@ -33,6 +29,6 @@
 
 
 
-<script src="index.js"></script>
+<script src="/index.js"></script>
 </body>
 </html>
