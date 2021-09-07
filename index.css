@@ -1,4 +1,25 @@
 .bgContainer{
+    padding: 30px;
+    background-color:blueviolet;
+    height: 100vh;
+}
+.card{
+    border-radius: 10px;
+    padding: 17px;
+}
+.heading{
+    color: blueviolet;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.randomPassword{
+    background-color:darkseagreen;
+    border-radius: 10px;
     padding: 15px;
-    background-color: aqua;
+    color:black;
+    font-size: 24px;
+}
+.btngp{
+    border-radius: 10px;
 }
