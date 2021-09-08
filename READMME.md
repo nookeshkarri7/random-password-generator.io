@@ -1,2 +1,3 @@
-random-password-generator.io
-/
+**Random Password Generator
+**
+Used Techonologies : HTML, CSS ,Javascript
